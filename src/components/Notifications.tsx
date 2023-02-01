@@ -46,7 +46,7 @@ export function Notifications() {
 
         <div className="flex flex-col gap-x-3 gap-y-2">
           <div onClick={() => toggleNotification(0)} className={isNew(0) == true ? "message-container message-container-new" : "message-container"}>
-            <img className="person-icon" src="/images/avatar-mark-webber.webp" />
+            <img className="person-icon" src="/images/avatar-mark-webber.webp" alt="user icon"/>
             <div className="ml-4 w-full">
               <a>
                 <span className="person-name">Mark Webber</span>
@@ -63,7 +63,7 @@ export function Notifications() {
           {/* Angela Gray */}
 
           <div onClick={() => toggleNotification(1)} className={isNew(1) == true ? "message-container message-container-new" : "message-container"}>
-            <img className="person-icon" src="/images/avatar-angela-gray.webp" />
+            <img className="person-icon" src="/images/avatar-angela-gray.webp" alt="user icon"/>
             <div className="ml-4 w-full">
               <a>
                 <span className="person-name">Angela Gray</span>
@@ -79,7 +79,7 @@ export function Notifications() {
           {/* Jacob Thompson */}
 
           <div onClick={() => toggleNotification(2)} className={isNew(2) == true ? "message-container message-container-new" : "message-container"}>
-            <img className="person-icon" src="/images/avatar-jacob-thompson.webp" />
+            <img className="person-icon" src="/images/avatar-jacob-thompson.webp" alt="user icon"/>
             <div className="ml-4 w-full">
               <a className="gap-x-2">
                 <span className="person-name">Jacob Thompson</span>
@@ -96,7 +96,7 @@ export function Notifications() {
           {/* Rizky Hasanuddin */}
 
           <div onClick={() => toggleNotification(3)} className={isNew(3) == true ? "message-container message-container-new" : "message-container"}>
-            <img className="person-icon mt-0" src="/images/avatar-rizky-hasanuddin.webp" />
+            <img className="person-icon mt-0" src="/images/avatar-rizky-hasanuddin.webp" alt="user icon"/>
             <div className="ml-4 w-full">
               <a>
                 <span className="person-name">Rizky Hasanuddin</span>
@@ -118,7 +118,7 @@ export function Notifications() {
           {/* Kimberly Smith */}
 
           <div onClick={() => toggleNotification(4)} className={isNew(4) == true ? "message-container message-container-new" : "message-container"}>
-            <img className="person-icon" src="/images/avatar-kimberly-smith.webp" />
+            <img className="person-icon" src="/images/avatar-kimberly-smith.webp" alt="user icon"/>
             <div className="ml-4 w-full">
               <a>
                 <span className="person-name">Kimberly Smith</span>
@@ -129,13 +129,13 @@ export function Notifications() {
                 <p className="message-duration">1 week ago</p>
               </div>
             </div>
-            <img className="h-12 w-12 m-auto" src="/images/image-chess.webp" />
+            <img className="h-12 w-12 m-auto" src="/images/image-chess.webp" alt="chess game"/>
           </div>
 
           {/* Nathan Peterson */}
 
           <div onClick={() => toggleNotification(5)} className={isNew(5) == true ? "message-container message-container-new" : "message-container"}>
-            <img className="person-icon" src="/images/avatar-nathan-peterson.webp" />
+            <img className="person-icon" src="/images/avatar-nathan-peterson.webp" alt="user icon"/>
             <div className="ml-4 w-full">
               <a>
                 <span className="person-name">Nathan Peterson</span>
@@ -152,7 +152,7 @@ export function Notifications() {
           {/* Anna Kim */}
 
           <div onClick={() => toggleNotification(6)} className={isNew(6) == true ? "message-container message-container-new" : "message-container"}>
-            <img className="person-icon" src="/images/avatar-anna-kim.webp" />
+            <img className="person-icon" src="/images/avatar-anna-kim.webp" alt="user icon"/>
             <div className="ml-4 w-full">
               <a>
                 <span className="person-name">Anna Kim</span>
