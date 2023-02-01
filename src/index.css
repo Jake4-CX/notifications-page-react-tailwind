@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+
+@layer components {
+  .person-name {
+    @apply font-bold duration-150 hover:text-[#0c3371];
+  }
+  .person-icon {
+    @apply h-12 w-12 m-auto duration-150 hover:opacity-75;
+  }
+
+  .message-describe {
+    @apply text-[#656c76];
+  }
+
+  .person-group-name {
+    @apply text-[#696f7b] font-bold duration-150 hover:text-[#15336a];
+  }
+
+  .new-message-dot {
+    @apply inline-block w-2 h-2 bg-[#ff4945] rounded-full m-auto ml-2;
+  }
+
+  .message-duration {
+    @apply text-[#a9b0b9];
+  }
+
+  .message-container {
+    @apply p-6 flex flex-row items-baseline cursor-pointer;
+  }
+
+  .message-container-new {
+    @apply bg-[#f6fafd] rounded-lg;
+  }
+}
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 16px;
+  }
+}
